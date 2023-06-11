@@ -8,6 +8,17 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Text for links */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* font size for all text on page */
+p {
+    font-size: 16px;
+}
+
 /* Header stylings */
 header {
     padding: 20px;
@@ -43,15 +54,7 @@ header ul li {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
 
-/* font size for all text on page */
-p {
-    font-size: 16px;
-}
 /* large background image below header */
 .background-image {
     height: 800px;
@@ -80,36 +83,6 @@ p {
     margin-left: 20px;
 }
 
-/* Sidebar content */
-
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-.benefit-lead, .benefit-brand, .benefit-cost  {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* Headings for benefit table info */
-.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* images for benefit table. Combined attributes with similar characteristics */
-.benefit-lead img, .benefit-brand img, .benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
 /* Main content. all following tags had identical characteritstics, consolidated for ease of use */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
@@ -130,6 +103,38 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* Sidebar content */
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.benefit-lead, .benefit-brand, .benefit-cost  {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Headings for sidebar content */
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* images for sidebar content. Combined attributes with similar characteristics */
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
 
 /* footer stylings */
 
