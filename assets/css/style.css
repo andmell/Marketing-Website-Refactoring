@@ -8,7 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
-
+/* Header stylings */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -52,7 +52,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* large background image below header */
 .background-image {
     height: 800px;
     width: 100%;
@@ -61,6 +61,8 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+/* float stylings */
 
 .float-left {
     float: left;
@@ -77,7 +79,9 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-/* benefit table on right hand side */
+
+/* Sidebar content */
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -100,14 +104,13 @@ p {
     text-align: center;
 }
 
-/* images for benefit table.
-Combined attributes with similar characteristics */
+/* images for benefit table. Combined attributes with similar characteristics */
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/* all following tags had identical characteritstics, consolidated for ease of use */
+/* Main content. all following tags had identical characteritstics, consolidated for ease of use */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -117,18 +120,18 @@ Combined attributes with similar characteristics */
     color: #ffffff;
 }
 
-/* code for images on page, not benefits table
-Combined attributes with similar characteristics */
+/* Main content images. Combined attributes with similar characteristics */
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
-/* stylings for secondary headers in content
-Combined attributes with similar characteristics */
+/* Main content headers. Combined attributes with similar characteristics */
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* footer stylings */
 
 footer { /* removed unecessary class assignment from this attribute */
     padding: 30px;
