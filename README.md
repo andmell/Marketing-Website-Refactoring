@@ -15,7 +15,7 @@ I've commented the changes I've made in both the HTML and CSS files for review. 
 
 ## Credits
 
-I've used code initially created by GitHub user Xandromus (Xander Rapstine) to complete this project. 
+I've used code initially created by GitHub user Xandromus (Xander Rapstine) to complete this project. His code could be found at https://github.com/coding-boot-camp/urban-octo-telegram.
 
 ## License
 
